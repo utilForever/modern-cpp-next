@@ -26,20 +26,19 @@ By the end of the book, you will understand the newer aspects of C++11/14/17 and
 ## Contents
 
 - Chapter 1: 시작하기
-    - 들어가며
-    - 1.1 C++ 언어 소개
-    - 1.2 설치하기
-        - 1.2.1 Microsoft Visual Studio
-        - 1.2.2 gcc
-        - 1.2.3 clang
-    - 1.3 사용법 익혀보기
+    - 1.1 들어가며
+    - 1.2 C++ 언어 소개
+    - 1.3 설치하기
         - 1.3.1 Microsoft Visual Studio
         - 1.3.2 gcc
         - 1.3.3 clang
-    - 1.4 첫 프로그램 : Hello World
-    - 1.5 정리
-    - 1.6 연습문제
-...
+    - 1.4 사용법 익혀보기
+        - 1.4.1 Microsoft Visual Studio
+        - 1.4.2 gcc
+        - 1.4.3 clang
+    - 1.5 첫 프로그램 : Hello World
+    - 1.6 정리
+    - 1.7 연습문제
 
 ## License
 
