@@ -2,7 +2,7 @@
 
 ###### Documentation and source code for Modern C++ Cookbook
 
-<img src="https://github.com/utilForever/ModernCppCookbook/blob/master/Logo.png" align="center" />
+<img src="https://github.com/utilForever/ModernCppCookbook/blob/master/Logo.png" width="256" height="256" align="center" />
 
 ## The Book
 
