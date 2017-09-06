@@ -83,3 +83,18 @@ NOTE: 컴파일러 버전 문제로 차후에 스크린샷을 찍은 뒤 내용�
 ### 1.4.3 clang
 
 NOTE: 컴파일러 버전 문제로 차후에 스크린샷을 찍은 뒤 내용을 추가합니다.
+
+## 1.5 첫 프로그램 : Hello, World!
+
+'1.4절 사용법 익혀보기'에서 사용했던 예제 코드를 다시 한 번 살펴봅시다.
+
+```
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+
+    return 0;
+}
+```
