@@ -25,7 +25,7 @@ By the end of the book, you will understand the newer aspects of C++11/14/17 and
 
 ## Contents
 
-- Chapter 1: 시작하기
+- [Chapter 1: 시작하기](https://github.com/utilForever/ModernCppCookbook/blob/master/Chapter%201%20-%20Get%20Started.md)
     - 1.1 들어가며
     - 1.2 C++ 언어 소개
     - 1.3 설치하기
@@ -36,7 +36,7 @@ By the end of the book, you will understand the newer aspects of C++11/14/17 and
         - 1.4.1 Visual C++
         - 1.4.2 g++
         - 1.4.3 clang
-    - 1.5 첫 프로그램 : Hello World
+    - 1.5 첫번째 프로그램 : Hello, World
     - 1.6 정리
     - 1.7 연습문제
 
