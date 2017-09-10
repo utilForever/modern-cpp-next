@@ -5,5 +5,5 @@
 2장에서는 C++ 기본 기능에 대해 살펴봅니다.
 책 전반에 걸쳐 최대한 많은 기능을 살펴보겠지만, 모든 세부 사항을 설명하려면 삼국지 전권과 맞먹는 분량이 필요합니다.
 그렇다고 모든 내용을 넣는다면, 장식용 책이 되고 말 것입니다.
-따라서 특정 기능에 대해 자세한 내용을 보고 싶다면, 레퍼런스 사이트([CPlusPlus](http://www.cplusplus.com) 또는 (C++ reference)[http://en.cppreference.com])를 참고하시기 바랍니다.
+따라서 특정 기능에 대해 자세한 내용을 보고 싶다면, 레퍼런스 사이트([CPlusPlus](http://www.cplusplus.com) 또는 [C++ reference](http://en.cppreference.com))를 참고하시기 바랍니다.
 또한 지면으로 인해 설명하지 못했던 세부 사항은 부록에서 다루고자 합니다.
