@@ -26,3 +26,45 @@
 단지 프로그래머들은 입력값을 넣었을 때 원하는 출력값을 만들어주는 함수를 C++을 사용해 구현합니다.
 프로그래밍에서도 함수 내부의 구현은 블랙박스와 같아서 함수를 사용하는 입장에서는 이를 알 필요가 없습니다.
 단순히 함수에 입력값을 넣으면 우리가 원하는 출력값을 얻을 수 있다는 점을 아는 것이 중요합니다.
+
+### 2.2.1 인수
+
+### 2.2.2 리턴 타입
+
+### 2.2.3 인라인
+
+### 2.2.4 오버로딩
+
+### 2.2.5 main 함수
+
+우리는 1.5절에서 Hello, World 프로그램을 통해 이미 함수를 접했었습니다. 바로 ```main``` 함수입니다.
+
+```C++
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+
+    return 0;
+}
+```
+
+```main``` 함수는 다른 함수와는 근본적으로 다른 함수입니다.
+먼저, 모든 C++ 프로그램은 ```main``` 함수를 호출해 시작합니다.
+따라서 ```main``` 함수를 정의하지 않으면, 컴파일 오류가 발생하게 됩니다.
+
+```
+1>MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+1>C:\Users\utilForever\documents\visual studio 2017\Projects\Test\Release\Test.exe : fatal error LNK1120: 1 unresolved externals
+```
+
+또한 ```main``` 함수의 표준 시그니처는 2가지 뿐입니다. 이 시그니처는 C++ 표준으로 정해져 있습니다.
+
+```C++
+int main()
+```
+
+또는
+
+```C++
+int main(int argc, char* argv[])
+```
