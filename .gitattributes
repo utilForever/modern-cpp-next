@@ -1,0 +1,49 @@
+# THIS IS ONLY FOR THE gitattributes REPOSITORY.
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.gitattributes text
+.gitignore text
+*.md text
+
+#sources
+*.c text
+*.cc text
+*.cxx text
+*.cpp text
+*.c++ text
+*.hpp text
+*.h text
+*.h++ text
+*.hh text
+
+# Compiled Object files
+*.slo binary
+*.lo binary
+*.o binary
+*.obj binary
+
+# Precompiled Headers
+*.gch binary
+*.pch binary
+
+# Compiled Dynamic libraries
+*.so binary
+*.dylib binary
+*.dll binary
+
+# Compiled Static libraries
+*.lai binary
+*.la binary
+*.a binary
+*.lib binary
+
+# Executables
+*.exe binary
+*.out binary
+*.app binary
