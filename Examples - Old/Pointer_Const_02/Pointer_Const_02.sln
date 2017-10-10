@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer_Const_02", "Pointer_Const_02\Pointer_Const_02.vcxproj", "{370323FA-2DE2-699B-98FA-61543FB3F6EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370323FA-2DE2-699B-98FA-61543FB3F6EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{370323FA-2DE2-699B-98FA-61543FB3F6EF}.Debug|Win32.Build.0 = Debug|Win32
+		{370323FA-2DE2-699B-98FA-61543FB3F6EF}.Release|Win32.ActiveCfg = Release|Win32
+		{370323FA-2DE2-699B-98FA-61543FB3F6EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
