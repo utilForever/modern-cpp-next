@@ -4,6 +4,8 @@
 
 The intent of "Modern C++ Next" is to provide a comprehensive introduction to the relevant features regarding C++20 or earlier (if there's enough time). Readers can choose interesting content according to the following table of content to learn and quickly familiarize the new features you would like to learn. Readers should aware that all of these features are not required. It should be leart when you really need it. At the same time, instead of grammar-only, the book introduces the historical background as simple as possible of its technical requirements, which provides great help in understanding why these features comes out.
 
+We'll write this book in Korean and English and our goal of writing is July 2020.
+
 ## Targets
 
 This book assumes that readers are already familiar with modern C++ (i.e. C++11/14/17), at least they do not have any difficulty in reading modern C++ code. In other words, those who have long experience in modern C++ and people who desire to quickly understand the features of C++20 in a short period of time are well suited to read the book.
