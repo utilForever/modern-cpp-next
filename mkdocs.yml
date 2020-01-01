@@ -9,9 +9,9 @@
 # Note:
 #   Any suggestion for this file will be welcomed :)
 #
-site_name: "Modern C++ Next (experimental)"
-site_description: "Introduction to C++ 20"
-site_url: https://luncliff.github.io/modern-cpp-next/Home
+site_name: "Modern C++ Next"
+site_description: "Comprehensive Guide for C++20"
+site_url: https://luncliff.github.io/modern-cpp-next/readme-kor/
 site_author: Park DongHa <luncliff@gmail.com>
 
 repo_name: luncliff/modern-cpp-next
