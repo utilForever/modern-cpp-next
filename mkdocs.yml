@@ -1,0 +1,26 @@
+#
+# Author: github.com/luncliff (luncliff@gmail.com)
+# References:
+#   https://www.mkdocs.org/
+#   https://github.com/squidfunk/mkdocs-material
+#   https://material.io/resources/icons/?icon=call_split&style=twotone
+#   https://fonts.google.com/
+#
+# Note:
+#   Any suggestion for this file will be welcomed :)
+#
+site_name: "Modern C++ Next (experimental)"
+site_description: "Introduction to C++ 20"
+site_url: https://luncliff.github.io/modern-cpp-next/Home
+site_author: Park DongHa <luncliff@gmail.com>
+
+repo_name: luncliff/modern-cpp-next
+repo_url: http://github.com/luncliff/modern-cpp-next
+
+copyright: "MIT"
+
+theme:
+  name: "ivory"
+
+nav:
+  - Index: readme-kor.md
