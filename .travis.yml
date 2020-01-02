@@ -20,7 +20,7 @@ addons:
     packages:
       - tree
       - clang-9
-      - libstdc++-9-dev
+      - g++-9
 
 language: python
 python:
