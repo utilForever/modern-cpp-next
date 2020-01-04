@@ -207,7 +207,7 @@ next.pcm:
 		--precompile -x c++-module module_ifc.cpp
 
 next_impl_2: module_impl_2.cpp
-    make next.pcm
+	make next.pcm
 	clang-9 $(CFLAGS) $(LDFLAGS) \
 	 	-fmodule-file=next.pcm \
 		-o next_impl_2.o -c $?
