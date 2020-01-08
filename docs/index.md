@@ -5,7 +5,7 @@
 
 * C++ 20 [시작하기](./kor/getting_started.md) / Getting Started
 
-### Core features
+### Core Features
 
 * Modules: [한국어](./kor/modules_p1.md) / English
 * Coroutines
