@@ -26,7 +26,7 @@
 
 * GCC 9.2.1 (20191102)
 * Clang 9.0.0 (20191211)
-* MSVC 19.24 x64 (v142, VS 2019)
+* MSVC 19.24 x64 (v142, [Visual Studio 2019 16.4](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-history))
 * AppleClang 11 ([XCode 11](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes))
 
 #### Standard Library
