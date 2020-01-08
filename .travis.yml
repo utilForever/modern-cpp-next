@@ -35,7 +35,7 @@ script:
 deploy:
   - provider: pages
     github_token: ${MAINTAINER_GITHUB_TOKEN}
-    local_dir: site
+    local_dir: _site
     skip_cleanup: true
     keep_history: true
     on:

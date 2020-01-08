@@ -1,5 +1,6 @@
 
 .vscode
+_site
 
 # Created by https://www.gitignore.io/api/xcode,linux,macos,cmake,bazel,gradle,windows,clion+all,visualstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=xcode,linux,macos,cmake,bazel,gradle,windows,clion+all,visualstudio,visualstudiocode

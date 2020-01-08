@@ -2,17 +2,15 @@
 # Author: github.com/luncliff (luncliff@gmail.com)
 # References:
 #   https://www.mkdocs.org/
-#   https://github.com/squidfunk/mkdocs-material
-#   https://material.io/resources/icons/?icon=call_split&style=twotone
-#   https://fonts.google.com/
 #
 # Note:
 #   Any suggestion for this file will be welcomed :)
 #
 site_name: "Modern C++ Next"
 site_description: "Comprehensive Guide for C++20"
-site_url: https://luncliff.github.io/modern-cpp-next/readme-kor/
+site_url: https://luncliff.github.io/modern-cpp-next
 site_author: Park DongHa <luncliff@gmail.com>
+site_dir: _site
 
 repo_name: luncliff/modern-cpp-next
 repo_url: http://github.com/luncliff/modern-cpp-next
@@ -20,7 +18,28 @@ repo_url: http://github.com/luncliff/modern-cpp-next
 copyright: "MIT"
 
 theme:
-  name: "ivory"
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - c++
+  include_sidebar: false
+
+# https://python-markdown.github.io/extensions/
+markdown_extensions:
+  - toc
+  - codehilite:
+      linenums: true
+      guess_lang: false
 
 nav:
-  - Index: readme-kor.md
+  - Home: index.md
+  - Getting Started: kor/getting_started.md
+  - Modules:
+      - Overview: kor/modules_p0.md
+      - Part 1: kor/modules_p1.md
+      - Part 2: kor/modules_p2.md
+      - Part 3: kor/modules_p3.md
+      - Part 4: kor/modules_p4.md
+  - Concepts:
+      - Overview: kor/concepts_p0.md
