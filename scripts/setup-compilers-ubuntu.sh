@@ -4,6 +4,13 @@
 #   References:
 #       https://apt.llvm.org/
 #
+apt --version
+if [ $? -gt 0 ]
+then
+  echo "The script requires APT"
+  exit 1
+fi
+
 verion_name=$(. /etc/os-release;echo $VERSION)
 distribution=$(. /etc/os-release;echo $UBUNTU_CODENAME)
 
@@ -37,5 +44,5 @@ apt install -y -q \
 pushd /usr/bin
 ln -s --force gcc-9 gcc
 ln -s --force g++-9 g++
-ln -s --force clang-8 clang
-popd
+ln -s --force clang-9 clang
+popd # leave /usr/bin

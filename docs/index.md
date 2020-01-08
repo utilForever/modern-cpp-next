@@ -25,6 +25,7 @@
 
 ### Appendix
 
-* LLVM project의 설치
-* Ubuntu 환경에서 컴파일러 설치를 위한 스크립트
+* 설치 / Installation
+    * [LLVM 프로젝트의 설치](./kor/appendix_install.md)
+    * [Ubuntu 환경에서의 컴파일러 설치](./kor/appendix_install.md)
 * ...

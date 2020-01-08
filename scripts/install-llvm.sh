@@ -34,12 +34,15 @@ do
 done
 
 mkdir -p llvm-build && pushd llvm-build
-cmake -DLLVM_ENABLE_PROJECTS="libcxx;libcxxabi;clang" \
-      -DCMAKE_INSTALL_PREFIX="${install_prefix}" \
-      ../llvm
+cmake ../llvm \
+      -DLLVM_ENABLE_PROJECTS="libcxx;libcxxabi;clang" \
+      -DCMAKE_INSTALL_PREFIX="${install_prefix}"
 
 # too many logs. make silent ...
-make -j4 clang          2>err-clang.txt
 make -j4 install-cxx    2>err-libcxx.txt
 make -j4 install-cxxabi 2>err-libcxxabi.txt
-popd
+make -j4 clang          2>err-clang.txt
+make clang
+
+popd # leave /tmp/llvm-build
+popd # leave /tmp

@@ -43,3 +43,5 @@ nav:
       - Part 4: kor/modules_p4.md
   - Concepts:
       - Overview: kor/concepts_p0.md
+  - Appendix:
+      - Install: kor/appendix_install.md

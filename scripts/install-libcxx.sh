@@ -17,18 +17,18 @@ echo "----------------------------------------------------------------------"
 
 provider="https://github.com/llvm-mirror"
 
+pushd /tmp
 # get the packages with specified version
 for repo in "llvm" "libcxx" "libcxxabi"
 do
     uri="${provider}/${repo}/archive/${branch}.zip"
-    wget -q -O "/tmp/${repo}.zip" ${uri} &
+    wget -q -O "${repo}.zip" ${uri} &
 done
 # wait for background downloads
 for pid in $(jobs -p); do
     wait $pid
 done
 
-pushd /tmp
 for repo in "llvm" "libcxx" "libcxxabi"
 do
     unzip -u -q "${repo}.zip"
@@ -36,11 +36,15 @@ do
 done
 
 mkdir -p llvm-build && pushd llvm-build
-cmake -DLLVM_ENABLE_PROJECTS="libcxx;libcxxabi" \
-      -DCMAKE_INSTALL_PREFIX="${install_prefix}" \
-      ../llvm
-
+cmake ../llvm \
+    -DLLVM_ENABLE_PROJECTS="libcxx;libcxxabi" \
+    -DCMAKE_INSTALL_PREFIX="${install_prefix}"
+ 
 # too many logs. make silent ...
-make -j4 install-cxx    2>err-libcxx.txt
-make -j4 install-cxxabi 2>err-libcxxabi.txt
-popd
+make -j4 cxx    2>err-libcxx.txt
+make install-cxx
+make -j4 cxxabi 2>err-libcxxabi.txt
+make install-cxxabi
+
+popd # leave /tmp/llvm-build
+popd # leave /tmp
