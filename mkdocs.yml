@@ -28,9 +28,9 @@ theme:
 # https://python-markdown.github.io/extensions/
 markdown_extensions:
   - toc
-  - codehilite:
-      linenums: true
-      guess_lang: false
+  # - codehilite:
+  #     linenums: true
+  #     guess_lang: false
 
 nav:
   - Home: index.md
@@ -38,10 +38,10 @@ nav:
   - Modules:
       - Overview: kor/modules_p0.md
       - Part 1: kor/modules_p1.md
-      - Part 2: kor/modules_p2.md
-      - Part 3: kor/modules_p3.md
-      - Part 4: kor/modules_p4.md
-  - Concepts:
-      - Overview: kor/concepts_p0.md
-  - Appendix:
-      - Install: kor/appendix_install.md
+      # - Part 2: kor/modules_p2.md
+      # - Part 3: kor/modules_p3.md
+      # - Part 4: kor/modules_p4.md
+  # - Concepts:
+  #     - Overview: kor/concepts_p0.md
+  # - Appendix:
+  #     - Install: kor/appendix_install.md

@@ -7,7 +7,7 @@ C++ Modules와 관련된 참고자료 목록
 
 ### Sections in the draft of C++ Standard
 
-[N4835](https://github.com/cplusplus/draft/tree/master/papers)를 기반으로 작성되었습니다. https://github.com/cplusplus 에서 다른 문서를 확인하실 수 있습니다.
+[N4835](https://github.com/cplusplus/draft/tree/master/papers)를 기반으로 작성되었습니다. [https://github.com/cplusplus/draft](https://github.com/cplusplus/draft) 에서 다른 문서를 확인하실 수 있습니다.
 
 * ... (TBA) ...
 
