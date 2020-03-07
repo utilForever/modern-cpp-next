@@ -1,3 +1,4 @@
+/// @file examples/modules_p1_1.cpp
 #include <cstdio>
 
 int main(int argc, char* argv[]) {
