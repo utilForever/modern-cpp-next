@@ -1,0 +1,47 @@
+#
+# Author: github.com/luncliff (luncliff@gmail.com)
+# References:
+#   https://www.mkdocs.org/
+#
+# Note:
+#   Any suggestion for this file will be welcomed :)
+#
+site_name: "Modern C++ Next"
+site_description: "Comprehensive Guide for C++20"
+site_url: https://luncliff.github.io/modern-cpp-next
+site_author: Park DongHa <luncliff@gmail.com>
+site_dir: _site
+
+repo_name: luncliff/modern-cpp-next
+repo_url: http://github.com/luncliff/modern-cpp-next
+
+copyright: "MIT"
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - c++
+  include_sidebar: false
+
+# https://python-markdown.github.io/extensions/
+markdown_extensions:
+  - toc
+  # - codehilite:
+  #     linenums: true
+  #     guess_lang: false
+
+nav:
+  - Home: index.md
+  - Getting Started: kor/getting_started.md
+  - Modules:
+      - Overview: kor/modules_p0.md
+      - Part 1: kor/modules_p1.md
+      - Part 2: kor/modules_p2.md
+      - Part 3: kor/modules_p3.md
+      - Part 4: kor/modules_p4.md
+  # - Concepts:
+  #     - Overview: kor/concepts_p0.md
+  # - Appendix:
+  #     - Install: kor/appendix_install.md
